@@ -1,4 +1,4 @@
-# Assessment 3 - ReactJS: AirBrB
+# PropertyRentingService - ReactJS: AirBrB
 
 1. Background & Motivation
 2. The Task (Frontend)
