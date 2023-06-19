@@ -1,0 +1,74 @@
+.headBox {
+    height: 50px;
+    background: #1890ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.headCenter {
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.headRight {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 30px;
+    cursor: pointer;
+}
+
+.loginOut {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.mainBox {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    /* min-height: 500px; */
+    background: #fff;
+}
+.headLeft{
+    display: flex;
+    align-items: center;
+
+}
+.navBox{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nickname{
+    font-weight: bold;
+}
+
+.statusBox{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:600px){
+    .email{
+        display: none;
+    }
+}
